@@ -49,12 +49,12 @@ function HeroSection() {
 
         {/* Profile Image */}
         <div className="relative shrink-0 self-start md:self-center">
-          <div className="group w-24 h-24 sm:w-28 sm:h-28 rounded-full overflow-hidden border border-zinc-700 bg-zinc-800 shadow-2xl relative">
+          <div className="group w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border border-zinc-700 bg-zinc-800 shadow-2xl relative">
             <Image
               src={personalData.profile}
               alt={personalData.name}
-              width={200}
-              height={200}
+              width={500}
+              height={500}
               className="w-full h-full object-cover grayscale opacity-90 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
             />
           </div>
